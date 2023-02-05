@@ -1,0 +1,210 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Oxygen', sans-serif; 
+    font-weight: 300;
+}
+
+a {
+    color: black;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visisted {
+    color: inherit;
+    text-decoration: none;
+}
+
+header {
+    padding: 20px 20px 20px 0;
+    background-color: black;
+    display: flex;
+    align-items:center;
+    /* justify-content: space-between; */
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 40px;
+    background-color:aliceblue; 
+    color: black;
+    padding:10px 10px 10px 50px;
+    font-weight: 700;
+}
+
+header img {
+    height: 70px;
+    background-color: cornsilk;
+    border-radius: 25%;
+    padding: 10px;
+    margin-left: 10px;
+    border: 4px solid plum;
+}
+
+header nav {
+    font-size: 20px;
+    margin-left: auto;
+}
+
+header nav a {
+    color: cornsilk;
+    font-weight: 400;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+    list-style-type: none;
+}
+
+.hero {
+    height: 300px;
+    /* background-image: url("https://via.placeholder.com/1167x200.png?text=hero"); */
+    background-image: url("https://images.pexels.com/photos/4842544/pexels-photo-4842544.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.hero h2 {
+    background-color: aliceblue;
+    padding: 5px 10px;
+    position: absolute;
+    right: 40px;
+    bottom: 20px;
+    font-weight: 400;
+}
+
+section {
+    margin: 50px 50px 50px 100px;
+}
+
+section h2 {
+    font-size: 30px;
+    font-weight: 400;
+    width: 130px;
+    text-align: right;
+    float:  left; 
+}
+
+section .text {
+   display: grid;
+   padding-left: 50px;
+}
+
+section .container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 8px;
+    grid-row-gap: 8px;
+    padding-left: 50px;
+    /* padding-left: 65px; */
+    /* margin-left: 100px; */
+}
+
+section .card {
+    border: 5px;
+    border-style: solid;
+    border-color: cornflowerblue;
+    background-color: aqua;
+    height:150px;
+    position:relative;
+    background-size: cover;
+    background-position: center;
+}
+
+section .card:first-child {
+    grid-column: span 2;
+    height: 300px;
+}
+
+section .card .title {
+    background-color: aliceblue;
+    position: absolute;
+    bottom:20px;
+    left:0;
+    padding: 10px;
+}
+
+section .card .title h3 {
+    font-weight: 400;
+}
+
+section .card .title p {
+    font-size: smaller;
+    margin-top: 4px;
+}
+
+section .card a::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: " ";
+}
+
+#surf-report-card {
+    /* background-image: url("https://via.placeholder.com/1167x200.png?text=Surf%20Report"); */
+    background-image: url("https://images.pexels.com/photos/1002064/pexels-photo-1002064.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+}
+
+#led-wall-card {
+    /* background-image: url("https://via.placeholder.com/1167x200.png?text=LED%20Wall"); */
+    background-image: url("https://images.pexels.com/photos/1123262/pexels-photo-1123262.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+}
+
+#calculator-card {
+    /* background-image: url("https://via.placeholder.com/1167x200.png?text=Calculator"); */
+    background-image: url("https://images.pexels.com/photos/220301/pexels-photo-220301.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+}
+
+#pastel-puzzles-card {
+    /* background-image: url("https://via.placeholder.com/1167x200.png?text=Pastel%20Puzzles"); */
+    background-image: url("https://images.pexels.com/photos/7135019/pexels-photo-7135019.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+}
+#run-buddy-card {
+    /* background-image: url("https://via.placeholder.com/1167x200.png?text=Run%20Buddy"); */
+    background-image: url("https://images.pexels.com/photos/694587/pexels-photo-694587.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+}
+
+section ul {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-items: center;
+    padding-left: 50px;
+    list-style-type: none;
+    padding-bottom: 50px;
+}
+
+section ul li a {
+    color: cornflowerblue;
+}
+
+footer {
+    background-color: black;
+    color: cornsilk;
+    padding: 20px;
+}
+
+@media (max-width: 900px) {
+    header {
+        flex-direction: column;
+        align-items:flex-start;
+        gap: 10px;
+    }
+    header nav ul  {
+        display:flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    section ul {
+        display:flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}
