@@ -61,6 +61,8 @@ header nav ul li {
     list-style-type: none;
 }
 
+/* All stock photos were sourced from https://www.pexels.com/ */
+
 .hero {
     height: 300px;
     /* background-image: url("https://via.placeholder.com/1167x200.png?text=hero"); */
@@ -147,6 +149,8 @@ section .card a::after {
     bottom: 0;
     content: " ";
 }
+
+/* All stock photos were sourced from https://www.pexels.com/ */
 
 #surf-report-card {
     /* background-image: url("https://via.placeholder.com/1167x200.png?text=Surf%20Report"); */
