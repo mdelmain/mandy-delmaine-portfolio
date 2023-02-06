@@ -39,4 +39,4 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 The following image shows the web application's appearance and functionality:
 
-(assets/images/Screenshot-mandy-delmaine-portfolio.png)
+![mandy delmaine portfolio](assets/images/Screenshot-mandy-delmaine-portfolio.png)
