@@ -3,6 +3,8 @@
 ## Description 
 For the module 2 assignment I built a professional portfolio webpage with HTML and CSS. There is a navigation bar that takes you to the main content which is divided into three sections. For now this site contains mostly placeholder information. This webpage can be viewed across devices with various screen sizes such as tablets and phones.  
 
+The webpage can be found here: https://mdelmain.github.io/mandy-delmaine-portfolio/
+
 ## Installation
 N/A
 
